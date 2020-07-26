@@ -1,0 +1,65 @@
+@import '../../index.scss';
+
+
+header-title{
+  font-size: 1.5em;
+  align-self: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: $regular;
+  color: $white;
+}
+
+.menu-item{
+  font-size: 1em;
+  align-self: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: $gray;
+}
+
+.menu-item:hover{
+    color:$white;
+}
+
+search-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  min-width: 23rem;
+  background-color: white;
+  align-items: center;
+  border-radius: 2px;
+}
+.clear-button{
+  cursor: pointer;
+  font-weight: 500;
+  color:#a2a2a2;
+}
+
+.search[type=text] {
+  font-size: $sub-heading;
+  outline: none;
+  min-width: 15rem;
+  padding: 12px 20px 12px 20px;
+  color: $primary;
+  border-width:0;
+}
+
+header{
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.08);
+  min-height: 4rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $primary;
+}
+
+
+.search-icon{
+  padding-left: 12px;
+  padding-top: 4px;
+}
+

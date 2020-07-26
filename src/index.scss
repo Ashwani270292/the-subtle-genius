@@ -1,0 +1,37 @@
+
+$light: 0,300;
+$light_italics: 1,300;
+$regular:0,400;
+$regular_italics:1,400;
+$medium: 0,500;
+$semibold:0,600;
+$bold: 0,700;
+
+$key-shadow-umbra-colour: rgba(black, .14);
+$key-shadow-penumbra-colour: rgba(black, .12);
+$ambient-shadow-colour: rgba(black, .20);
+
+$primary:#1a1a1a;
+$secondary:#62727b;
+$dark:#102027;
+$white:#ffffff;
+$black:#000000;
+$gray:#d2d2d2;
+$gray2:#a2a2a2;
+$gray3:#929292;
+$tagColor:#b45f06;
+$heading: 1.5em;
+$sub-heading: 1em;
+$content: 0.8em;
+
+$web-safe-area: 50px;
+
+html{
+  height:100%;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  height: 100%;
+}

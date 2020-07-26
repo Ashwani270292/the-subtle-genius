@@ -1,0 +1,48 @@
+.content p span{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 1.2em !important;
+    color: #2C3532 !important;
+    line-height: 2em;
+   
+  }
+
+  .content blockquote span{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 1.5em !important;
+    font-weight: 600 !important;
+    background-color: #f2f2f2 !important;
+    margin-top: 1em;
+  }
+  .content blockquote {
+    background-color: #f2f2f2 !important;
+    padding: 2em;
+    border-radius: 0.2em;
+    margin:0em;
+  }
+  .content p{
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+  }
+
+  @media screen and (max-width: 640px) {
+    .content p span{
+      font-family: 'Source Sans Pro', sans-serif !important;
+      font-size: 1em !important;
+      color: #37474f !important;
+      line-height: 1.7em;
+    }
+    .content p{
+      padding-top: 0.5em;
+    }
+    .content blockquote {
+      background-color: #f2f2f2 !important;
+      padding: 1em;
+      border-radius: 0.2em;
+      margin:0em;
+    }
+    .content blockquote span{
+      font-family: 'Source Sans Pro', sans-serif !important;
+      font-size: 1.2em !important;
+      font-weight: 600 !important;
+    }
+  }
